@@ -31,9 +31,81 @@ from collections import defaultdict  # noqa: F401
 
 import yaml  # noqa: F401
 
-from ..common import ERROR, parse_yolo_line  # noqa: F401
+from ..common import ERROR, ROOT, parse_yolo_line
 
 
 def fix(ds, issues, cfg):
-    # TODO
-    raise NotImplementedError("autofix chưa làm")
+    if ds.root.resolve() == (ROOT / "data/raw").resolve():
+        raise ValueError("autofix chỉ được sửa bản sao làm việc, không sửa dữ liệu raw")
+    grouped = defaultdict(list)
+    for issue in issues:
+        if issue.severity == ERROR:
+            grouped[issue.image].append(issue)
+    changes = []
+
+    def record(image, line, action, before, after):
+        changes.append(dict(image=image, line=line, action=action, before=before, after=after))
+
+    remove_codes = {"LEAK_TEST", "CORRUPT_IMAGE", "BAD_SIZE"}
+    drop_codes = {"BAD_FORMAT", "BAD_CLASS_ID", "BOX_ZERO", "DUP_BOX"}
+    for stem, image_issues in sorted(grouped.items()):
+        codes = {issue.code for issue in image_issues}
+        path = ds.label_path(stem)
+        if codes & remove_codes or any(code.startswith("DUP_IMAGE_") for code in codes):
+            image = ds.image_path(stem)
+            if image is not None or path.exists():
+                before = "; ".join(str(p.relative_to(ds.root)) for p in (image, path)
+                                   if p is not None and p.exists())
+                if image is not None:
+                    image.unlink()
+                path.unlink(missing_ok=True)
+                ds._size_cache.pop(stem, None)
+                record(stem, None, "remove_image", before, "(đã xoá ảnh và nhãn)")
+            continue
+        if "BAD_CLASS_NAME" in codes:
+            data = yaml.safe_load(ds.yaml_path.read_text(encoding="utf-8")) or {}
+            names = list(cfg["classes"])
+            if ds.yaml_names() != dict(enumerate(names)):
+                before = str(data.get("names", {}))
+                data["names"] = names
+                ds.yaml_path.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False), encoding="utf-8")
+                record(stem, None, "rename_classes", before, str(names))
+        if "MISSING_LABEL_FILE" in codes and not path.exists():
+            record(stem, None, "needs_label", "(không có file)", "chuyển người gán")
+        if not path.exists():
+            continue
+        line_codes = defaultdict(set)
+        for issue in image_issues:
+            if issue.line is not None:
+                line_codes[issue.line].add(issue.code)
+        original = path.read_text(encoding="utf-8", errors="replace").splitlines()
+        output = []
+        changed = False
+        for line, text in enumerate(original, 1):
+            codes = line_codes[line]
+            action, after = None, text
+            if codes & drop_codes:
+                action, after = "drop_line", ""
+            elif "BOX_OUT_OF_IMAGE" in codes:
+                try:
+                    cls, x, y, w, h = parse_yolo_line(text)
+                except (ValueError, OverflowError):
+                    action, after = "drop_line", ""
+                else:
+                    left, top = max(0.0, x - w / 2), max(0.0, y - h / 2)
+                    right, bottom = min(1.0, x + w / 2), min(1.0, y + h / 2)
+                    if right <= left or bottom <= top:
+                        action, after = "drop_line", ""
+                    else:
+                        box = ((left + right) / 2, (top + bottom) / 2, right - left, bottom - top)
+                        if box != (x, y, w, h):
+                            action = "clip_box"
+                            after = f"{cls} " + " ".join(f"{value:.12g}" for value in box)
+            if action:
+                changed = True
+                record(stem, line, action, text, after)
+            if action != "drop_line":
+                output.append(after)
+        if changed:
+            path.write_text("\n".join(output) + ("\n" if output else ""), encoding="utf-8")
+    return changes
