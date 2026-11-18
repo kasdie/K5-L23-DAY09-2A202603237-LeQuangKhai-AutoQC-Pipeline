@@ -1,6 +1,6 @@
 # Các bước còn lại — Lê Quang Khải, 2A202603237
 
-Phần lõi đã triển khai: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest và REPORT.md. Kết luận đúng là **Hold**, không cần ép thành Release để nộp. Train tùy chọn chiếm 15 điểm; CVAT là thưởng +2. Chưa chạy hai phần này, chưa nộp lên LMS và chưa đẩy lên repo riêng.
+Phần lõi và train đã hoàn thành: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest, bốn lần train raw/clean × seed 0/1 và REPORT.md đã cập nhật kết quả. Kết luận QC vẫn là **Hold**; mAP50 trung bình clean thấp hơn raw 2,54 điểm phần trăm, không cần ép kết quả cải thiện để nộp. Các bước Colab bên dưới giữ làm hướng dẫn tái lập, không cần chạy lại để hoàn tất bài hiện tại. CVAT thưởng +2 chưa làm; chưa nộp LMS và chưa đẩy repo riêng.
 
 ## 1. Mở và chạy lại trên máy này
 

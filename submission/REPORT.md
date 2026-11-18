@@ -56,11 +56,20 @@ Hai điểm mù: (1) pHash 4 bỏ lọt `img_0077/img_0223` cùng cảnh nhưng 
 
 ## 5. Train: raw vs clean (tùy chọn, chấm riêng)
 
-**Chưa chạy:** chưa kết nối phiên Colab GPU cho bốn thí nghiệm; không có mAP, không kết luận clean tốt hơn raw. Notebook và cách chạy ZIP đã chuẩn bị trong `HUONG_DAN_HOAN_TAT.md`. Khi có số liệu: cùng yolo26n, 20 epoch, seed 0/1, val/test và siêu tham số; so clean − raw với độ lệch giữa seed. Hai giả thuyết cần kiểm: raw có trùng/rò rỉ làm điểm tăng giả; clean còn cảnh báo hoặc lớp ít box (car/person/truck/bus: 102/576/42/33). Đối chiếu log intake, AP theo lớp và dự đoán; không đổi test để làm đẹp kết quả.
+Đã chạy **4 thí nghiệm trên Colab T4**: raw/clean × seed 0/1, cùng `yolo26n.pt`, 20 epoch, batch 16, imgsz 640, cùng gold_val (40 ảnh) và test (100 ảnh) theo script gốc. Các JSON có `config_sha1` khớp cấu hình hiện tại; cả hai lần clean có `manifest_sha1` khớp bản xuất Hold. Bảng dưới do `scripts/summarize_results.py` sinh, độ lệch là độ lệch chuẩn mẫu giữa hai seed.
+
+| biến thể | #ảnh train | số seed | map50 (TB ± độ lệch) | map50_95 (TB ± độ lệch) | precision (TB ± độ lệch) | recall (TB ± độ lệch) |
+|---|---|---|---|---|---|---|
+| raw | 224 | 2 | 0.726 ± 0.000 | 0.512 ± 0.004 | 0.764 ± 0.061 | 0.649 ± 0.028 |
+| clean | 205 | 2 | 0.700 ± 0.030 | 0.486 ± 0.013 | 0.715 ± 0.073 | 0.615 ± 0.017 |
+
+**Clean − raw: mAP50 = −0,0254 (−2,54 điểm phần trăm)**; mAP50-95 cũng giảm khoảng 2,55 điểm phần trăm. Độ lệch chuẩn mAP50 của clean là **0,0305**, lớn hơn độ lớn chênh lệch trung bình; của raw là 0,000212 (bảng làm tròn thành 0,000, không phải bằng 0). Chênh mAP50 theo cặp seed 0/1 lần lượt là −0,0468 và −0,0040. **Raw cao hơn ở cả hai seed đã chạy; chưa có bằng chứng clean tốt hơn raw**, và hai seed chưa đủ để khẳng định mức giảm ổn định khi khái quát sang lần train khác. Trung bình AP50 theo lớp: car tăng 1,10; person tăng 0,53; truck giảm 8,97; bus giảm 2,83 điểm phần trăm.
+
+Hai giả thuyết cần kiểm: (1) raw có 4 cờ rò rỉ test/val cùng ảnh trùng, có thể làm điểm raw tăng giả; log intake chưa chứng minh mức ảnh hưởng, cần phép so sánh loại riêng các ảnh này khi giữ nguyên test. (2) clean vẫn Hold, còn 38/205 ảnh cảnh báo chưa duyệt, lại có ít box truck/bus (42/33 so với 576 person), có thể gây dao động và giảm AP ở hai lớp này; cần kiểm nhãn theo lớp, dự đoán sai và thử nhiều seed hơn, giữ cùng thiết lập. Không chọn ngưỡng hoặc sửa nhãn theo tập test. `train_images=224/205` là số file ảnh được dựng trước khi trainer kiểm dữ liệu; không khẳng định raw thật sự dùng đủ 224 ảnh vì Ultralytics có thể bỏ ảnh/nhãn hỏng, cần log train để xác nhận. Bước tiếp theo: kiểm tra các giả thuyết trên và thêm ít nhất 3 seed, không kết luận cải thiện từ riêng hai seed.
 
 ## 6. Quyết định và ghi chú AI
 
-Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Train và CVAT chưa được tính là hoàn thành.
+Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Đã hoàn thành phần train so sánh; CVAT chưa thực hiện.
 
 - **Prompt/đặc tả AI:** Codex triển khai theo docstring + test: vào YOLO 5 cột/cache, quy tắc từ cfg, ra Issue/log/verdict; checks chỉ đọc, autofix sửa bản sao, không bịa nhãn.
 - **Kiểm chứng:** trợ lý chạy 79 test gốc, calibration có lỗi chèn, ca biên, xem ảnh raw và thử Rework không xuất; không sửa test/dữ liệu/file mẫu bảo vệ. Học viên cần đọc và hiểu bốn module theo RULES.md.
