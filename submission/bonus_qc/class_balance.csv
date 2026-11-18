@@ -1,0 +1,3 @@
+check,severity,code,image,line,message,extra
+class_balance,warn,CLASS_IMBALANCE,<dataset>,,lớp truck: 42/753 box (5.58%) < 10.00%; cần người đánh giá,"{""class_id"": 2, ""class_name"": ""truck"", ""boxes"": 42, ""total_boxes"": 753, ""fraction"": 0.055776892430278883, ""min_fraction"": 0.1}"
+class_balance,warn,CLASS_IMBALANCE,<dataset>,,lớp bus: 33/753 box (4.38%) < 10.00%; cần người đánh giá,"{""class_id"": 3, ""class_name"": ""bus"", ""boxes"": 33, ""total_boxes"": 753, ""fraction"": 0.043824701195219126, ""min_fraction"": 0.1}"

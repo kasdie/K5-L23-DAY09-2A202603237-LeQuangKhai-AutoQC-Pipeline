@@ -1,0 +1,19 @@
+{
+  "n_images": 205,
+  "total_boxes": 753,
+  "class_counts": {
+    "car": 102,
+    "person": 576,
+    "truck": 42,
+    "bus": 33
+  },
+  "n_warnings": 2,
+  "config": {
+    "class_balance": {
+      "min_fraction": 0.1
+    }
+  },
+  "bonus_config_sha1": "a7482304ea11ae30e301aa50906beda09d5983c7",
+  "source_manifest_sha1": "c74f0bf060cd0f329ab7fd972492b70b4bbe6db3",
+  "note": "Cảnh báo bổ sung độc lập; không thay đổi gate/export/train. Ngưỡng 10% là heuristic, chưa calibration."
+}

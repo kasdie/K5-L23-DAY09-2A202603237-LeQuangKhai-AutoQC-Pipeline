@@ -1,0 +1,10 @@
+# Bonus — lệch tỷ trọng lớp
+ảnh đã quét: 205
+
+class_balance -> 2 dòng
+
+[WARN ] CLASS_IMBALANCE      <dataset>  lớp truck: 42/753 box (5.58%) < 10.00%; cần người đánh giá
+[WARN ] CLASS_IMBALANCE      <dataset>  lớp bus: 33/753 box (4.38%) < 10.00%; cần người đánh giá
+
+## Tổng hợp theo mã
+warn  CLASS_IMBALANCE        2

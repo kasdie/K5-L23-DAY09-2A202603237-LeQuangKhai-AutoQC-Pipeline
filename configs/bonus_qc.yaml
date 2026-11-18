@@ -1,0 +1,3 @@
+# Ngưỡng bổ sung, độc lập với cấu hình cố định của bài và kết quả train đã có.
+class_balance:
+  min_fraction: 0.10
