@@ -1,0 +1,4 @@
+PASS: hai lỗi cùng dòng, dòng trống, ID inf, clip/drop và chạy lại không đổi
+PASS: nhiều dự đoán, dòng hỏng/trống, giữ thứ tự và số dòng, check chỉ đọc
+PASS: gate dùng tỉ lệ thực, lỗi cấp dataset không bị bỏ qua khi đã duyệt
+PASS: autofix từ chối sửa trực tiếp data/raw
