@@ -69,7 +69,7 @@ Hai giả thuyết cần kiểm: (1) raw có 4 cờ rò rỉ test/val cùng ản
 
 ## 6. Quyết định và ghi chú AI
 
-Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Đã hoàn thành phần train so sánh; CVAT chưa thực hiện.
+Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Đã hoàn thành phần train so sánh. Phần thưởng check QC mới (+3) và CVAT (+2) chưa thực hiện; các ca kiểm thử bổ sung không được tính là check QC mới.
 
 - **Prompt/đặc tả AI:** Codex triển khai theo docstring + test: vào YOLO 5 cột/cache, quy tắc từ cfg, ra Issue/log/verdict; checks chỉ đọc, autofix sửa bản sao, không bịa nhãn.
 - **Kiểm chứng:** trợ lý chạy 79 test gốc, calibration có lỗi chèn, ca biên, xem ảnh raw và thử Rework không xuất; không sửa test/dữ liệu/file mẫu bảo vệ. Học viên cần đọc và hiểu bốn module theo RULES.md.

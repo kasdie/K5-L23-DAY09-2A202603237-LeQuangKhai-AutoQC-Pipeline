@@ -4,13 +4,24 @@
 
 # Day 09 Lab — Lê Quang Khải: 2A202603237 - Lê Quang Khải
 
+## Kết quả bài nộp
+
+- Đã hoàn thành 4 module, calibration hai ngưỡng và 4 lần train raw/clean với seed 0/1.
+- Pipeline: **Hold** — nhận 205/224 ảnh; không còn lỗi bắt buộc; 38/205 ảnh còn cảnh báo chưa duyệt (18,54%). Dataset xuất là bản nháp để thử nghiệm.
+- mAP50 trung bình: raw **0,7258**, clean **0,7004**. Chênh clean − raw **−2,54 điểm phần trăm**; chưa có bằng chứng clean tốt hơn raw.
+- Kiểm tra: **79 test đạt**; `make check` không có lỗi/cảnh báo. Phần thưởng check mới và CVAT chưa thực hiện.
+
+[Báo cáo 6 mục](submission/REPORT.md) · [Calibration](submission/calibration/calibration_report.md) · [So sánh train](submission/results/comparison.md) · [Hướng dẫn tái lập và nộp bài](submission/HUONG_DAN_HOAN_TAT.md)
+
+Nội dung phía dưới giữ hướng dẫn đề gốc; mô tả test chưa hoàn thành ở phần bắt đầu nhanh áp dụng cho bản đề trước khi triển khai.
+
 <p align="center">
   <img alt="cá nhân" src="https://img.shields.io/badge/lab-cá%20nhân-0b1f3a">
   <img alt="thời lượng" src="https://img.shields.io/badge/thời%20lượng-4–4,5%20giờ-ff8a3d">
   <img alt="ảnh" src="https://img.shields.io/badge/dữ%20liệu-224%20ảnh-12b3a8">
   <img alt="python" src="https://img.shields.io/badge/python-3.9–3.13-3776ab">
   <img alt="gpu" src="https://img.shields.io/badge/GPU-chỉ%20để%20train-2fbf71">
-  <a href="https://colab.research.google.com/github/VinUni-AI20k/K5-L23-Day09-AutoQC-Pipeline-Lab/blob/main/notebooks/day09_train_compare.ipynb"><img alt="Mở trong Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/kasdie/K5-L23-DAY09-2A202603237-LeQuangKhai-AutoQC-Pipeline/blob/main/notebooks/day09_train_compare.ipynb"><img alt="Mở trong Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 </p>
 
 > **Máy kiểm quy tắc, người kiểm ý nghĩa.** Bạn xây một pipeline chạy bằng MỘT lệnh, rồi **đo** (số liệu, trung thực) xem nó có ích không.

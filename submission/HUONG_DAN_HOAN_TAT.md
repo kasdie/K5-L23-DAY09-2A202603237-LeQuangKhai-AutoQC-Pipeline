@@ -1,6 +1,6 @@
 # Các bước còn lại — Lê Quang Khải, 2A202603237
 
-Phần lõi và train đã hoàn thành: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest, bốn lần train raw/clean × seed 0/1 và REPORT.md đã cập nhật kết quả. Kết luận QC vẫn là **Hold**; mAP50 trung bình clean thấp hơn raw 2,54 điểm phần trăm, không cần ép kết quả cải thiện để nộp. Các bước Colab bên dưới giữ làm hướng dẫn tái lập, không cần chạy lại để hoàn tất bài hiện tại. CVAT thưởng +2 chưa làm; chưa nộp LMS và chưa đẩy repo riêng.
+Phần lõi và train đã hoàn thành: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest, bốn lần train raw/clean × seed 0/1 và REPORT.md đã cập nhật kết quả. Kết luận QC vẫn là **Hold**; mAP50 trung bình clean thấp hơn raw 2,54 điểm phần trăm, không cần ép kết quả cải thiện để nộp. Các bước Colab bên dưới giữ làm hướng dẫn tái lập, không cần chạy lại để hoàn tất bài hiện tại. Phần thưởng check QC mới và CVAT chưa làm; học viên tự nộp link repo public lên LMS sau khi đồng bộ GitHub.
 
 ## 1. Mở và chạy lại trên máy này
 
@@ -32,23 +32,24 @@ Quy tắc lớp yêu cầu học viên hiểu code AI tạo. Đọc docstring r�
 
 Mở `submission/evidence/visual_inspection.jpg` và `phash_pairs.jpg`. Các nhận xét bằng mắt trong REPORT.md do trợ lý AI thực hiện; bạn cần tự đối chiếu. REPORT đã ghi rõ việc dùng AI, không khẳng định bạn đã tự xem hoặc tự viết toàn bộ code.
 
-## 3. Đưa bài lên GitHub riêng và nộp phần lõi
+## 3. Đưa bài lên GitHub riêng và nộp bài
 
-1. Vào repo đề, chọn **Fork**. Đặt tên **K5-L23-DAY09-2A202603237-AutoQCPipeline**, để public. Fork giữ chung lịch sử với bản đang làm nên có thể push bình thường.
-2. Thay địa chỉ remote bằng URL fork của bạn (không push vào repo giảng viên):
+Repo public đã được tạo tại: **https://github.com/kasdie/K5-L23-DAY09-2A202603237-LeQuangKhai-AutoQC-Pipeline**. `origin` của bản local đã trỏ đến repo này; `upstream` giữ địa chỉ repo giảng viên. Chạy trong thư mục `lab/`:
 
 ```bash
-git remote set-url origin https://github.com/TAI_KHOAN_CUA_BAN/K5-L23-DAY09-2A202603237-AutoQCPipeline.git
 git remote -v
 git status --short
-git log --oneline -6
+git log --oneline -10
 git push -u origin main
 ```
 
-Nếu đã tạo repo bằng **Use this template** thì lịch sử có thể khác: không force push. Clone repo mới sang thư mục khác, chép các file đã làm và `submission/` từ đây, rồi commit/push trong repo mới.
+Nếu Git báo không có quyền, đăng nhập GitHub Desktop bằng **kasdie**, thêm local repository là thư mục `lab/`, rồi chọn Push origin; hoặc đăng nhập Git CLI bằng tài khoản có quyền ghi repo. Không gửi token/mật khẩu trong chat. Repo hiện cùng commit gốc với bản local, nên không cần force push.
 
-3. Kiểm tra trên GitHub có 4 module, `configs/pipeline.yaml`, `submission/REPORT.md`, `submission/calibration/`, `submission/reports/` và `submission/export/clean_v1/manifest.json`.
-4. Nộp link repo public lên **https://aithucchien.vinuni.edu.vn** hoặc kênh lớp chỉ định. Không có train thì nộp phần lõi với `make check-core`, không khai đã hoàn thành 15 điểm train.
+Trước khi nộp:
+
+1. Kiểm tra trên GitHub có 4 module, `configs/pipeline.yaml`, `submission/REPORT.md`, calibration, reports, export và đủ bốn JSON train cùng `comparison.md` trong `submission/results/`.
+2. Tên chuẩn trong `SUBMISSION.md` là **K5-L23-DAY09-2A202603237-AutoQCPipeline**; tên repo hiện có thêm họ tên và cách viết AutoQC-Pipeline. Nếu lớp yêu cầu đúng mẫu, đổi tên tại GitHub → Settings → General → Repository name, rồi cập nhật URL `origin` và đường dẫn badge Colab trong README theo tên mới. Chưa tự đổi tên repo của bạn.
+3. Chạy `make check` và nộp link repo public lên **https://aithucchien.vinuni.edu.vn** hoặc kênh lớp chỉ định. Phần train đã hoàn thành; không cần train lại để nộp. CVAT và check QC mới vẫn là phần thưởng chưa thực hiện.
 
 ## 4. Train trên Colab — chọn một cách
 
