@@ -25,5 +25,40 @@ from ..common import ERROR, WARN, Issue, iou_xywh, parse_yolo_line  # noqa: F401
 
 
 def run(ds, cfg):
-    # TODO: duyệt từng file nhãn, từng dòng
-    raise NotImplementedError("check label_format chưa làm")
+    rules = cfg["label_format"]
+    issues = []
+    for path in ds.label_files():
+        stem = path.stem
+        previous = []
+        size = ds.image_size(stem)
+        for line, text in ds.read_label_lines(stem) or []:
+            def report(severity, code, message, extra=None):
+                issues.append(Issue("label_format", severity, code, stem,
+                                    message, line, extra or {}))
+
+            try:
+                cls, x, y, w, h = parse_yolo_line(text)
+            except (ValueError, OverflowError) as exc:
+                report(ERROR, "BAD_FORMAT", f"dòng YOLO không hợp lệ: {exc}")
+                continue
+            if not 0 <= cls < len(ds.classes):
+                report(ERROR, "BAD_CLASS_ID", f"id lớp {cls} ngoài 0..{len(ds.classes) - 1}")
+                continue
+            if w <= 0 or h <= 0:
+                report(ERROR, "BOX_ZERO", f"kích thước box không dương: {w} × {h}")
+                continue
+            box = (x, y, w, h)
+            overflow = max(0.0, w / 2 - x, h / 2 - y,
+                           x + w / 2 - 1, y + h / 2 - 1)
+            if overflow > rules["overflow_tol"]:
+                report(ERROR, "BOX_OUT_OF_IMAGE", f"box tràn ảnh {overflow:.6f}",
+                       {"overflow": overflow})
+            if any(cls == old_cls and iou_xywh(box, old_box) > rules["dup_box_iou"]
+                   for old_cls, old_box in previous):
+                report(ERROR, "DUP_BOX", "box trùng với dòng trước cùng lớp")
+            previous.append((cls, box))
+            if size and min(w * size[0], h * size[1]) < rules["min_box_px"]:
+                report(WARN, "BOX_TINY", f"cạnh ngắn < {rules['min_box_px']}px")
+            if w * h > rules["max_box_frac"]:
+                report(WARN, "BOX_HUGE", f"diện tích box {w * h:.4f} ảnh")
+    return issues
