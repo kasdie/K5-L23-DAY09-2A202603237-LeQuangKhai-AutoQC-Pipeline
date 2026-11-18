@@ -1,0 +1,36 @@
+{
+  "filter": "Width < 20",
+  "job_url": "http://localhost:8080/tasks/39/jobs/38",
+  "screenshots": [
+    {
+      "image": "img_0026.jpg",
+      "frame": "2",
+      "visible_objects": 6,
+      "screenshot": "screenshots/img_0026.png"
+    },
+    {
+      "image": "img_0051.jpg",
+      "frame": "6",
+      "visible_objects": 3,
+      "screenshot": "screenshots/img_0051.png"
+    },
+    {
+      "image": "img_0069.jpg",
+      "frame": "8",
+      "visible_objects": 2,
+      "screenshot": "screenshots/img_0069.png"
+    },
+    {
+      "image": "img_0161.jpg",
+      "frame": "19",
+      "visible_objects": 3,
+      "screenshot": "screenshots/img_0161.png"
+    },
+    {
+      "image": "img_0183.jpg",
+      "frame": "21",
+      "visible_objects": 1,
+      "screenshot": "screenshots/img_0183.png"
+    }
+  ]
+}

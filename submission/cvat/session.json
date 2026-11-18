@@ -1,0 +1,15 @@
+{
+  "status": "imported_and_verified",
+  "cvat_version": "2.83.0",
+  "project_id": 4,
+  "task_id": 39,
+  "job_id": 38,
+  "url": "http://localhost:8080/tasks/39/jobs/38",
+  "n_images": 25,
+  "n_boxes": 164,
+  "width_lt_20_boxes": 24,
+  "width_lt_20_images": 9,
+  "can_review_true": 24,
+  "screenshot_status": "complete: filter, five images, can_review and project",
+  "source_manifest_sha1": "c74f0bf060cd0f329ab7fd972492b70b4bbe6db3"
+}

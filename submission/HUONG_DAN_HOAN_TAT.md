@@ -1,6 +1,6 @@
 # Các bước còn lại — Lê Quang Khải, 2A202603237
 
-Phần lõi và train đã hoàn thành: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest, bốn lần train raw/clean × seed 0/1 và REPORT.md đã cập nhật kết quả. Kết luận QC vẫn là **Hold**; mAP50 trung bình clean thấp hơn raw 2,54 điểm phần trăm, không cần ép kết quả cải thiện để nộp. Các bước Colab bên dưới giữ làm hướng dẫn tái lập, không cần chạy lại để hoàn tất bài hiện tại. Phần thưởng check QC mới và CVAT chưa làm; học viên tự nộp link repo public lên LMS sau khi đồng bộ GitHub.
+Phần lõi và train đã hoàn thành: 4 module, hai sweep calibration, báo cáo lỗi, bản xuất có manifest, bốn lần train raw/clean × seed 0/1 và REPORT.md đã cập nhật kết quả. Kết luận QC vẫn là **Hold**; mAP50 trung bình clean thấp hơn raw 2,54 điểm phần trăm, không cần ép kết quả cải thiện để nộp. Các bước Colab bên dưới giữ làm hướng dẫn tái lập, không cần chạy lại để hoàn tất bài hiện tại. Đã bổ sung cả hai bonus: check lệch tỷ trọng lớp và thực hành CVAT local trên 5 ảnh; học viên tự nộp link repo public lên LMS sau khi đồng bộ GitHub.
 
 ## 1. Mở và chạy lại trên máy này
 
@@ -49,7 +49,7 @@ Trước khi nộp:
 
 1. Kiểm tra trên GitHub có 4 module, `configs/pipeline.yaml`, `submission/REPORT.md`, calibration, reports, export và đủ bốn JSON train cùng `comparison.md` trong `submission/results/`.
 2. Tên chuẩn trong `SUBMISSION.md` là **K5-L23-DAY09-2A202603237-AutoQCPipeline**; tên repo hiện có thêm họ tên và cách viết AutoQC-Pipeline. Nếu lớp yêu cầu đúng mẫu, đổi tên tại GitHub → Settings → General → Repository name, rồi cập nhật URL `origin` và đường dẫn badge Colab trong README theo tên mới. Chưa tự đổi tên repo của bạn.
-3. Chạy `make check` và nộp link repo public lên **https://aithucchien.vinuni.edu.vn** hoặc kênh lớp chỉ định. Phần train đã hoàn thành; không cần train lại để nộp. CVAT và check QC mới vẫn là phần thưởng chưa thực hiện.
+3. Chạy `make check` và nộp link repo public lên **https://aithucchien.vinuni.edu.vn** hoặc kênh lớp chỉ định. Phần train đã hoàn thành; không cần train lại để nộp. Bằng chứng cho cả hai bonus đã có trong báo cáo và thư mục submission.
 
 ## 4. Train trên Colab — chọn một cách
 
@@ -81,7 +81,9 @@ Cập nhật REPORT.md mục 5: dán bảng comparison.md, nêu clean − raw so
 
 ## 5. CVAT — tùy chọn thưởng +2
 
-Phần này cần bạn đăng nhập CVAT và tự thao tác/chụp bằng chứng:
+Đã thực hiện trên CVAT local: **http://localhost:8080/tasks/39/jobs/38**, tài khoản **hocvien** dùng mật khẩu bạn đã cung cấp. Xem [bằng chứng và cách tái lập](cvat/README.md). Các bước dưới giữ để bạn tự thao tác lại.
+
+Quy trình đã thực hiện và có thể thao tác lại:
 
 1. Tạo project, nhập nhãn từ `cvat/labels.json`.
 2. Tạo task với khoảng 20 ảnh đầu hàng đợi `05_review_queue.csv` từ `work/run/ds/images/`, nhập nhãn YOLO 1.1 theo `docs/CVAT_FILTER.md`.
@@ -90,3 +92,7 @@ Phần này cần bạn đăng nhập CVAT và tự thao tác/chụp bằng ch�
 5. Thêm kết quả thật vào REPORT.md mục 6; giải thích `can_review` đánh dấu đối tượng cần người xem lại, tương tự thông tin cảnh báo/hàng đợi của pipeline.
 
 Nếu chưa thao tác và chưa có screenshot thì giữ trạng thái chưa làm CVAT; không khai điểm thưởng.
+
+## 6. Bonus QC mới — lệch tỷ trọng lớp
+
+Chạy `python scripts/run_bonus_qc.py`; xem `submission/bonus_qc/summary.json` và `class_balance.csv`. Ngưỡng nằm riêng trong `configs/bonus_qc.yaml`; không đổi `configs/pipeline.yaml` hay bản xuất đã train. Chạy test mới bằng `python -m pytest bonus_tests -q` (14 test); `make check` chạy cả bộ 93 test.

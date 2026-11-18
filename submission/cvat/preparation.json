@@ -1,0 +1,14 @@
+{
+  "status": "prepared",
+  "n_images": 25,
+  "n_boxes": 164,
+  "width_filter": "width < 20",
+  "width_lt_20_boxes": 24,
+  "width_lt_20_images": 9,
+  "box_tiny_boxes": 7,
+  "source_manifest_sha1": "c74f0bf060cd0f329ab7fd972492b70b4bbe6db3",
+  "images_zip_sha1": "a20ebe39e1efcfc80e2f3be1adf46743a03bff5b",
+  "annotations_zip_sha1": "64d02e11eca091c96378043cb012b13d1ad8e25c",
+  "selection": "20 ảnh đầu hàng đợi + 5 ảnh BOX_TINY, khử trùng, xếp theo tên",
+  "note": "Số dự kiến tính từ export; chỉ xác nhận bonus CVAT sau khi thao tác và có screenshot thật."
+}

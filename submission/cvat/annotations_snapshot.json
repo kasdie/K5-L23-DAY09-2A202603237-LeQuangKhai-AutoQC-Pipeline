@@ -1,0 +1,4272 @@
+{
+  "version": 0,
+  "tags": [],
+  "shapes": [
+    {
+      "id": 4275,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 0,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        284.41,
+        506.66,
+        403.0,
+        583.46
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4274,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 0,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        368.9,
+        549.72,
+        403.0,
+        639.83
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4273,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 0,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        294.98,
+        523.05,
+        403.0,
+        626.93
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4277,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        379.02,
+        202.47,
+        446.19,
+        380.94
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4276,
+      "label_id": 184,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.0,
+        73.89,
+        416.44,
+        379.02
+      ],
+      "attributes": [
+        {
+          "spec_id": 63,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4282,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        433.36,
+        219.06,
+        456.29,
+        324.22
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4279,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        538.23,
+        208.64,
+        578.76,
+        336.39
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4278,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        445.51,
+        222.34,
+        477.88,
+        320.17
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4283,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        577.31,
+        232.86,
+        593.65,
+        281.09
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4281,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        611.15,
+        224.94,
+        628.76,
+        277.97
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4280,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        594.82,
+        229.62,
+        610.71,
+        282.65
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4284,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 1,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        188.25,
+        206.52,
+        216.29,
+        251.99
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4285,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        70.42,
+        550.17,
+        90.18,
+        600.25
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4286,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        98.6,
+        557.07,
+        116.04,
+        609.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4287,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        273.85,
+        571.19,
+        286.26,
+        601.57
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4288,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        367.67,
+        557.26,
+        381.97,
+        598.9
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4289,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        152.55,
+        568.04,
+        172.48,
+        600.91
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4290,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 2,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        152.15,
+        571.48,
+        163.56,
+        601.27
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4303,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        155.6,
+        174.5,
+        176.97,
+        232.08
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4292,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        424.98,
+        167.27,
+        448.04,
+        252.7
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4291,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        210.46,
+        167.13,
+        242.56,
+        277.41
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4298,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        550.7,
+        173.37,
+        586.2,
+        283.3
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4300,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        332.03,
+        166.91,
+        369.38,
+        263.36
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4301,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        176.12,
+        171.5,
+        210.55,
+        242.91
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4302,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        30.44,
+        170.31,
+        61.49,
+        254.07
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4299,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        365.37,
+        171.02,
+        380.38,
+        229.36
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4296,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        379.62,
+        170.04,
+        398.65,
+        244.72
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4295,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        354.69,
+        167.03,
+        373.98,
+        239.07
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4297,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        458.59,
+        170.87,
+        483.37,
+        260.82
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4294,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        471.5,
+        158.03,
+        589.68,
+        457.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4293,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 3,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        405.65,
+        170.25,
+        431.6,
+        246.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4307,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        355.71,
+        134.76,
+        415.34,
+        151.48
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4308,
+      "label_id": 184,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        68.01,
+        134.89,
+        501.42,
+        309.66
+      ],
+      "attributes": [
+        {
+          "spec_id": 63,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4304,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        147.53,
+        290.17,
+        378.32,
+        376.28
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4305,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        79.94,
+        151.04,
+        155.64,
+        170.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4306,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        276.05,
+        138.38,
+        334.88,
+        151.27
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4309,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 4,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.21,
+        152.57,
+        54.16,
+        183.44
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4310,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 5,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        320.58,
+        99.01,
+        491.81,
+        273.14
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4317,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        8.0,
+        523.42,
+        20.21,
+        563.01
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4315,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.19,
+        519.5,
+        9.1,
+        563.57
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4311,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        243.39,
+        523.26,
+        479.7,
+        640.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4312,
+      "label_id": 184,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        253.05,
+        338.46,
+        480.0,
+        582.15
+      ],
+      "attributes": [
+        {
+          "spec_id": 63,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4313,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        10.77,
+        534.88,
+        55.07,
+        566.85
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4314,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        69.16,
+        529.31,
+        119.03,
+        569.83
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4318,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        450.53,
+        507.7,
+        479.93,
+        539.22
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4316,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 6,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        330.59,
+        380.7,
+        349.43,
+        402.57
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4319,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 7,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        1.08,
+        1.08,
+        57.17,
+        115.42
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4320,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 7,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        446.19,
+        385.46,
+        462.69,
+        421.91
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4323,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 8,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        404.69,
+        188.44,
+        436.66,
+        228.14
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4324,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 8,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        402.41,
+        188.19,
+        439.14,
+        261.27
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4321,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 8,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        58.73,
+        286.1,
+        73.69,
+        331.37
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4322,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 8,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        132.73,
+        287.45,
+        143.94,
+        319.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4326,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 9,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        298.99,
+        114.87,
+        423.45,
+        250.65
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4325,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 9,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        452.32,
+        175.87,
+        501.97,
+        251.42
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4329,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 9,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.0,
+        44.32,
+        184.77,
+        480.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4328,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 9,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        486.56,
+        257.95,
+        640.0,
+        463.12
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4327,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 9,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        203.93,
+        181.14,
+        296.88,
+        285.19
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4331,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 10,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        580.45,
+        270.62,
+        640.0,
+        299.02
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4330,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 10,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        152.7,
+        260.67,
+        187.61,
+        278.89
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4332,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 10,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        152.11,
+        261.03,
+        187.64,
+        278.89
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4339,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        223.55,
+        239.36,
+        257.27,
+        262.76
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4340,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        201.96,
+        232.28,
+        233.56,
+        256.74
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4337,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        325.18,
+        230.66,
+        368.17,
+        252.48
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4341,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        359.28,
+        236.75,
+        399.2,
+        261.55
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4336,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        391.28,
+        239.39,
+        446.04,
+        279.82
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4334,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        504.77,
+        231.23,
+        590.58,
+        295.76
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4335,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        436.3,
+        244.67,
+        506.37,
+        286.05
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4333,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        584.3,
+        236.5,
+        639.57,
+        308.98
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4338,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 11,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        249.47,
+        239.91,
+        292.35,
+        266.77
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4353,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        13.43,
+        175.75,
+        95.15,
+        339.19
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4342,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        551.74,
+        97.87,
+        622.75,
+        320.49
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4343,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        467.97,
+        123.17,
+        543.87,
+        319.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4344,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        475.54,
+        174.45,
+        520.93,
+        315.61
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4345,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        408.95,
+        198.65,
+        455.73,
+        319.16
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4346,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        332.88,
+        185.89,
+        414.38,
+        352.61
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4347,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        332.91,
+        99.49,
+        406.0,
+        219.36
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4348,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        169.74,
+        184.86,
+        276.35,
+        337.42
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4349,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        249.12,
+        173.83,
+        297.47,
+        307.81
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4350,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        294.09,
+        176.6,
+        346.74,
+        333.25
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4351,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        327.21,
+        180.4,
+        359.83,
+        235.09
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4352,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        63.05,
+        185.69,
+        96.33,
+        270.05
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4354,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 12,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        256.56,
+        109.01,
+        313.57,
+        215.05
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4355,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 13,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        185.43,
+        247.73,
+        364.36,
+        414.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4360,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        338.58,
+        212.67,
+        532.85,
+        478.48
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4359,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        138.18,
+        169.88,
+        219.47,
+        347.07
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4361,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        517.6,
+        324.62,
+        603.44,
+        382.27
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4357,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        245.24,
+        175.63,
+        362.46,
+        339.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4356,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        338.84,
+        153.83,
+        401.5,
+        333.38
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4358,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 14,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        474.61,
+        240.54,
+        638.56,
+        471.37
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4373,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        151.46,
+        357.74,
+        212.85,
+        425.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4362,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        315.69,
+        74.98,
+        431.65,
+        284.3
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4363,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        41.67,
+        127.18,
+        117.43,
+        306.98
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4364,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.0,
+        120.95,
+        76.7,
+        301.37
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4365,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        34.17,
+        334.51,
+        122.05,
+        425.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4366,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        271.24,
+        315.17,
+        369.61,
+        425.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4367,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        242.58,
+        264.55,
+        418.31,
+        419.27
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4368,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        507.13,
+        379.05,
+        579.14,
+        424.57
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4369,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        517.16,
+        290.04,
+        559.03,
+        349.97
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4370,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        346.69,
+        272.19,
+        429.78,
+        399.21
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4371,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        34.39,
+        258.09,
+        159.81,
+        368.75
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4372,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        79.77,
+        369.41,
+        161.8,
+        425.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4374,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        1.05,
+        1.05,
+        194.14,
+        210.93
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4375,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 15,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        125.84,
+        292.67,
+        194.63,
+        362.09
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4386,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        -0.0,
+        120.35,
+        58.48,
+        223.33
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4382,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        328.38,
+        142.65,
+        347.05,
+        198.11
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4380,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        223.97,
+        140.73,
+        240.48,
+        188.22
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4376,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        403.6,
+        36.97,
+        529.91,
+        367.65
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4377,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        519.17,
+        95.14,
+        599.6,
+        298.39
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4378,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        42.13,
+        44.57,
+        268.58,
+        457.0
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4379,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        289.44,
+        151.45,
+        351.17,
+        244.35
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4381,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        239.51,
+        138.37,
+        260.27,
+        201.66
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4383,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        254.53,
+        152.02,
+        298.65,
+        237.77
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4384,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        30.15,
+        176.6,
+        71.53,
+        420.34
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4385,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 16,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        -0.0,
+        120.7,
+        58.7,
+        216.74
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4387,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 17,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        263.26,
+        25.25,
+        522.38,
+        406.13
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4397,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        367.32,
+        334.43,
+        433.35,
+        383.78
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4396,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        282.79,
+        326.14,
+        314.0,
+        358.93
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4398,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        79.74,
+        339.03,
+        130.79,
+        380.22
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4399,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        334.78,
+        330.27,
+        370.99,
+        362.02
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4400,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        572.77,
+        198.7,
+        619.43,
+        231.36
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4391,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        461.29,
+        345.5,
+        521.52,
+        384.17
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4392,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        312.31,
+        342.54,
+        366.13,
+        384.06
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4395,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        172.98,
+        253.1,
+        210.25,
+        284.44
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4394,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        87.71,
+        311.46,
+        121.91,
+        341.11
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4393,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        409.95,
+        345.49,
+        465.06,
+        383.76
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4388,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        466.34,
+        206.93,
+        515.56,
+        246.35
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4389,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        531.5,
+        200.76,
+        583.51,
+        241.46
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4390,
+      "label_id": 183,
+      "type": "rectangle",
+      "frame": 18,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        393.46,
+        136.72,
+        504.06,
+        165.8
+      ],
+      "attributes": [
+        {
+          "spec_id": 62,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4404,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 19,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        262.38,
+        430.75,
+        274.24,
+        474.39
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4403,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 19,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        253.11,
+        431.16,
+        264.51,
+        474.99
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4402,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 19,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        217.95,
+        434.01,
+        228.21,
+        466.28
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4401,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 19,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        279.71,
+        429.52,
+        310.93,
+        543.3
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4405,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 20,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        67.19,
+        143.09,
+        586.11,
+        564.8
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4413,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        501.32,
+        145.6,
+        543.67,
+        219.83
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4406,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        407.39,
+        76.08,
+        596.42,
+        362.03
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4407,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        591.08,
+        142.01,
+        636.18,
+        253.32
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4408,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        235.73,
+        156.57,
+        275.43,
+        262.55
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4409,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        119.67,
+        176.38,
+        178.73,
+        230.96
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4410,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        106.12,
+        152.88,
+        151.15,
+        266.75
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4411,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        75.8,
+        173.98,
+        113.47,
+        272.56
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4412,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        20.67,
+        176.0,
+        57.82,
+        267.6
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4414,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        537.39,
+        170.48,
+        558.99,
+        232.12
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4415,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        126.66,
+        224.53,
+        318.57,
+        397.25
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4416,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 21,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        0.0,
+        199.76,
+        11.78,
+        252.42
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "true"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4425,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        52.03,
+        55.62,
+        221.35,
+        554.78
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4423,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        335.57,
+        97.64,
+        484.1,
+        301.19
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4422,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        307.79,
+        199.92,
+        359.57,
+        312.85
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4421,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        34.38,
+        204.92,
+        152.66,
+        596.87
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4420,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        149.2,
+        238.65,
+        262.48,
+        588.17
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4419,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        250.25,
+        240.78,
+        337.82,
+        576.68
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4418,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        386.63,
+        214.52,
+        483.08,
+        557.42
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4417,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        456.81,
+        222.76,
+        598.29,
+        557.89
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4424,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        328.2,
+        241.14,
+        414.4,
+        572.32
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4426,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 22,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        162.14,
+        206.65,
+        255.93,
+        327.46
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4427,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 23,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        143.5,
+        83.4,
+        363.05,
+        608.6
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4436,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        326.11,
+        189.09,
+        369.49,
+        211.2
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4434,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        255.21,
+        265.38,
+        293.68,
+        356.55
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4433,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        339.86,
+        213.69,
+        383.15,
+        374.94
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4432,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        272.49,
+        207.93,
+        342.75,
+        370.29
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4431,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        478.79,
+        205.47,
+        544.94,
+        326.87
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4430,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        219.4,
+        169.89,
+        283.47,
+        187.36
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4429,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        577.74,
+        194.32,
+        613.8,
+        213.43
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4428,
+      "label_id": 181,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        597.05,
+        193.5,
+        640.0,
+        220.29
+      ],
+      "attributes": [
+        {
+          "spec_id": 60,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    },
+    {
+      "id": 4435,
+      "label_id": 182,
+      "type": "rectangle",
+      "frame": 24,
+      "group": 0,
+      "source": "file",
+      "score": 1.0,
+      "occluded": false,
+      "outside": false,
+      "z_order": 0,
+      "rotation": 0.0,
+      "points": [
+        201.33,
+        278.73,
+        254.95,
+        357.8
+      ],
+      "attributes": [
+        {
+          "spec_id": 61,
+          "value": "false"
+        }
+      ],
+      "elements": []
+    }
+  ],
+  "tracks": [],
+  "intervals": []
+}

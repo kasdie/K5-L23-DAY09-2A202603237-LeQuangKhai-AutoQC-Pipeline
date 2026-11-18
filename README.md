@@ -9,9 +9,9 @@
 - Đã hoàn thành 4 module, calibration hai ngưỡng và 4 lần train raw/clean với seed 0/1.
 - Pipeline: **Hold** — nhận 205/224 ảnh; không còn lỗi bắt buộc; 38/205 ảnh còn cảnh báo chưa duyệt (18,54%). Dataset xuất là bản nháp để thử nghiệm.
 - mAP50 trung bình: raw **0,7258**, clean **0,7004**. Chênh clean − raw **−2,54 điểm phần trăm**; chưa có bằng chứng clean tốt hơn raw.
-- Kiểm tra: **79 test đạt**; `make check` không có lỗi/cảnh báo. Phần thưởng check mới và CVAT chưa thực hiện.
+- Kiểm tra: **93 test đạt** (79 gốc + 14 bonus); `make check` không có lỗi/cảnh báo. Đã có check lệch tỷ trọng lớp và bằng chứng CVAT trên 5 ảnh.
 
-[Báo cáo 6 mục](submission/REPORT.md) · [Calibration](submission/calibration/calibration_report.md) · [So sánh train](submission/results/comparison.md) · [Hướng dẫn tái lập và nộp bài](submission/HUONG_DAN_HOAN_TAT.md)
+[Báo cáo 6 mục và bonus](submission/REPORT.md) · [Calibration](submission/calibration/calibration_report.md) · [So sánh train](submission/results/comparison.md) · [Bonus QC](submission/bonus_qc/summary.json) · [Bonus CVAT](submission/cvat/README.md) · [Hướng dẫn tái lập và nộp bài](submission/HUONG_DAN_HOAN_TAT.md)
 
 Nội dung phía dưới giữ hướng dẫn đề gốc; mô tả test chưa hoàn thành ở phần bắt đầu nhanh áp dụng cho bản đề trước khi triển khai.
 

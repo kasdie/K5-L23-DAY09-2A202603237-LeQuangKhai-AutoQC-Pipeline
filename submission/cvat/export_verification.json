@@ -1,0 +1,11 @@
+{
+  "format": "YOLO 1.1",
+  "n_images": 25,
+  "boxes_compared": 164,
+  "same_classes_and_counts": true,
+  "max_corner_delta_px": 0.005120000000033542,
+  "pixel_tolerance": 0.01,
+  "within_pixel_tolerance": true,
+  "byte_identical_claim": false,
+  "note": "Có sai số số thực khi chuyển đổi qua CVAT/YOLO; không ghi đè dataset train. YOLO 1.1 không lưu thuộc tính can_review."
+}

@@ -69,8 +69,30 @@ Hai giả thuyết cần kiểm: (1) raw có 4 cờ rò rỉ test/val cùng ản
 
 ## 6. Quyết định và ghi chú AI
 
-Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Đã hoàn thành phần train so sánh. Phần thưởng check QC mới (+3) và CVAT (+2) chưa thực hiện; các ca kiểm thử bổ sung không được tính là check QC mới.
+Giữ **Hold**, chỉ dùng bản xuất cho thử nghiệm. Với 205 ảnh, muốn dưới 10% cần giảm cảnh báo chưa xử lý từ 38 xuống ≤20 (ít nhất 18 ảnh), không còn lỗi bắt buộc. Cần vòng duyệt/lô tiếp theo được dự án cho phép; giữ nguyên ngân sách 80 và gate của bài. Đã hoàn thành train so sánh và bổ sung bằng chứng cho cả hai bonus: check QC mới (+3), CVAT (+2), chi tiết ở 6(a)–6(b).
 
 - **Prompt/đặc tả AI:** Codex triển khai theo docstring + test: vào YOLO 5 cột/cache, quy tắc từ cfg, ra Issue/log/verdict; checks chỉ đọc, autofix sửa bản sao, không bịa nhãn.
-- **Kiểm chứng:** trợ lý chạy 79 test gốc, calibration có lỗi chèn, ca biên, xem ảnh raw và thử Rework không xuất; không sửa test/dữ liệu/file mẫu bảo vệ. Học viên cần đọc và hiểu bốn module theo RULES.md.
+- **Kiểm chứng:** trợ lý chạy 79 test gốc và 14 test bonus, calibration có lỗi chèn, ca biên, xem ảnh raw và thử Rework không xuất; không sửa test/dữ liệu/file mẫu bảo vệ. Học viên cần đọc và hiểu bốn module theo RULES.md.
 - **Một lỗi AI:** ban đầu tạo môi trường bằng Python mặc định 3.14, ngoài dải 3.9–3.13 của đề; đã phát hiện và chuyển sang 3.9.6 trước khi kiểm chứng chính thức.
+
+### 6(a). Bonus check QC mới (+3)
+
+Đã thêm `pipeline/checks/class_balance.py` với mã `CLASS_IMBALANCE` (WARN cấp dataset). Khác `CLASS_RARE` đếm số box tuyệt đối, check mới đo tỷ trọng từng lớp trong tổng box parse được, có ID hợp lệ và kích thước dương; lớp vắng mặt cũng được kiểm. Ngưỡng 10% nằm riêng trong `configs/bonus_qc.yaml`, là heuristic chưa calibration, khác ngưỡng 10% ảnh cảnh báo của gate. Trên clean có **753 box**: car 102 (13,55%), person 576 (76,49%), truck **42 (5,58%)**, bus **33 (4,38%)**; hai lớp cuối được cảnh báo. Cần đánh giá guideline và dữ liệu bổ sung, không tự xóa/nhân bản box.
+
+Check chạy bằng `python scripts/run_bonus_qc.py`; báo cáo ở [bonus_qc/summary.json](bonus_qc/summary.json) và [bonus_qc/class_balance.csv](bonus_qc/class_balance.csv). **14 test mới** tại `bonus_tests/test_class_balance.py` kiểm ranh giới ngưỡng, lớp vắng, ID/dòng hỏng, cấu hình và tính chỉ đọc/tái lập; cùng 79 test gốc đạt **93 test**. Chạy riêng để giữ nguyên registry, cấu hình cố định, báo cáo chính và hash dataset đã train.
+
+### 6(b). Bonus CVAT (+2)
+
+Đã thực hành trên **CVAT Community v2.83.0 local**, project 4, task 39, job 38: [mở job trên máy đã dựng](http://localhost:8080/tasks/39/jobs/38). Nhập nhãn YOLO 1.1 cho **25 ảnh / 164 box** (20 ảnh đầu hàng đợi + 5 ảnh có BOX_TINY). Bộ lọc **Width < 20** cho **24 box / 9 ảnh**, được kiểm chứng bằng API; đã trực tiếp xem giao diện và chụp **5 ảnh** dưới đây:
+
+| Ảnh | Frame CVAT (từ 0) | Box sau lọc width < 20 | BOX_TINY trong pipeline | Screenshot |
+|---|---:|---:|---:|---|
+| img_0026 | 2 | 6 | 1 | [Ảnh](cvat/screenshots/img_0026.png) |
+| img_0051 | 6 | 3 | 1 | [Ảnh](cvat/screenshots/img_0051.png) |
+| img_0069 | 8 | 2 | 1 | [Ảnh](cvat/screenshots/img_0069.png) |
+| img_0161 | 19 | 3 | 3 | [Ảnh](cvat/screenshots/img_0161.png) |
+| img_0183 | 21 | 1 | 1 | [Ảnh](cvat/screenshots/img_0183.png) |
+
+[Bộ lọc đang hiển thị](cvat/screenshots/filter_width_lt_20.png); [bảng kiểm từ CVAT](cvat/verified_counts.csv). Hai phép kiểm khác nhau: CVAT xét **chiều rộng <20px**, BOX_TINY xét **cạnh ngắn <12px**; box khớp filter chưa chắc là lỗi. `can_review=true` đánh dấu 24 box cần người xem lại, tương tự cờ/hàng đợi duyệt của pipeline ([screenshot thuộc tính](cvat/screenshots/can_review.png)); không có nghĩa đã xử lý lỗi.
+
+Đã xuất lại YOLO 1.1: đủ **164 box, cùng lớp**, sai số góc box tối đa **0,00512px** so với bản clean ([kiểm chứng](cvat/export_verification.json)); không khẳng định file giống từng byte. Không sửa hình học thủ công hay ghi đè dataset train. Việc xem bonus không cộng vào 80 ảnh duyệt chính và không đổi quyết định **Hold**.
